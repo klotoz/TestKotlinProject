@@ -2,4 +2,5 @@
     <string name="app_name">TestKotlinProject</string>
     <string name="et_anything_hint">Напишите сюда что-нибудь</string>
     <string name="btn_repeat">Повторить</string>
+    <string name="btn_note">открыть заметку</string>
 </resources>
