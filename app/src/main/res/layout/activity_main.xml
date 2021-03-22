@@ -1,12 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/et_anything"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_anything_hint"
+        android:minLines="4" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_default_elevation"
+        android:text="@string/btn_repeat" />
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_repeat_anything"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minLines="4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_default_elevation"
+        android:text="@string/btn_note" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minLines="4" />
 </LinearLayout>
